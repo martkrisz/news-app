@@ -29,7 +29,8 @@ const AppNavigator = createStackNavigator(
 );
 
 const codePushOptions = {
-  checkFrequency: codepush.CheckFrequency.ON_APP_START
+  checkFrequency: codepush.CheckFrequency.ON_APP_START,
+  installMode: codepush.InstallMode.IMMEDIATE
 };
 
 const AppContainer = createAppContainer(AppNavigator);

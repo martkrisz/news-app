@@ -52,11 +52,11 @@ const newsFeeds = [
     name: 'Axios',
     api: 'https://newsapi.org/v2/top-headlines?sources=axios&apiKey=9a690af259744149aa38732591604a81'
   },
-  {
+  /*{
     name: 'Business Insider',
     api: 'https://newsapi.org/v2/top-headlines?sources=business-insider&apiKey=9a690af259744149aa38732591604a81'
   },
-  /*{
+  {
     name: 'CBS News',
     api: 'https://newsapi.org/v2/top-headlines?sources=cbs-news&apiKey=9a690af259744149aa38732591604a81'
   }*/
